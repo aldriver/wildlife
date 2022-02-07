@@ -50,7 +50,13 @@ body {
 
 /*------------- questions -------------*/
 .questions .title-underline {
-  width: 400px;
+  width: 150px;
+}
+
+@media (min-width: 630px) {
+  .questions .title-underline {
+    width: 400px;
+  }
 }
 
 /*------------- contact -------------*/
