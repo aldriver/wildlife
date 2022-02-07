@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Wildlife Zone home page">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- mapbox
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet' /> -->
+    <title>Wildlife Zone</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+        <div class="container">
+            <a href="#" class="navbar-brand">Wildlife Zone</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#featured" class="nav-link">Featured</a>
+                    </li> 
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#questions" class="nav-link">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contribute" class="nav-link">Contribute</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>   
+    </nav>
+
+    <!-- home page -->
+    <section class="home-page">
+        <div class="container">
+            <div class="home-text text-light">
+                <p>“If we can teach people about wildlife, they will be touched. Share my wildlife with me. Because humans want to
+                    save things that they love.”</p>
+                <p>- Steve Irwin</p>
+                </p>
+            </div>
+        </div>
+        
+    </section>
+
+    <!-- newsletter -->
+    <section class="bg-dark text-light p-5">
+        <div class="container">
+            <div class="d-md-flex justify-content-between align-items-center">
+                <h3 class="mb-3 mb-md-0">Subscribe To Our Newsletter</h3>
+                <div class="input-group news-input">
+                    <input type="text" class="form-control" placeholder="Enter Email">
+                    <button class="btn btn-primary btn-lg" type="button">Submit</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- featured -->
+    <section class="featured" id="featured">
+        <div class="container p-5">
+            <h3 class="mb-1 text-center text-light title-text">Featured Animals</h3>
+            <div class="mb-4 title-underline"></div>
+            <div class="row g-4 text-center">
+                <div class="col-lg">
+                    <div class="card bg-dark text-light h-100">
+                        <div class="card-body text-center">
+                            <div class="mb-3">
+                                <h3 class="card-title mb-3">
+                                    Katie
+                                </h3>
+                                <img src="/img/koala.jpeg" alt="image of Katie the koala" class="w-75 rounded">
+                            </div>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste veritatis porro, sapiente id beatae laborum recusandae exercitationem non tenetur officia.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card bg-dark text-light h-100">
+                        <div class="card-body text-center">
+                            <div class= "mb-3">
+                                <h3 class="card-title mb-3">
+                                    Oscar
+                                </h3>
+                                <img src="/img/owl.jpeg" alt="image of oscar the owl" class="w-75 rounded">
+                            </div>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat minima, tempora quos debitis reiciendis provident mollitia repellat inventore praesentium exercitationem.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card bg-dark text-light h-100">
+                        <div class="card-body text-center">
+                            <div class="mb-3">
+                                <h3 class="card-title mb-3">
+                                    Willie
+                                </h3>
+                                <img src="/img/wolf.jpeg" alt="image of Willie the wolf" class="w-75 rounded">
+                            </div>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur impedit illo unde officia. Fuga iure quidem delectus inventore nesciunt id!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- about -->
+    <section class=" p-5 about bg-dark text-center text-light" id="about">
+        <div class="container">
+            <h3 class="mb-1 text-light title-text">Our Mission</h3>
+            <div class="mb-4 title-underline"></div>
+            <p class="about-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique mollitia excepturi
+            laboriosam. Pariatur laborum ducimus vero nesciunt nam, assumenda sint corrupti officia doloremque ipsum blanditiis quisquam aliquid ullam natus at provident? Tenetur dolore cupiditate rem incidunt aliquam repudiandae sit vel harum mollitia doloribus nisi magni, in neque quas suscipit impedit perferendis eveniet hic, deleniti soluta accusamus nesciunt quia. Magnam obcaecati fuga reiciendis ut ipsa aliquid veniam vitae deserunt unde soluta id similique aperiam ducimus, vel porro accusamus libero. Itaque rem placeat laudantium molestias alias nemo iusto minus! Soluta non quos asperiores veniam? Perferendis assumenda minus qui sunt enim rem voluptatibus sapiente. Possimus ad quam delectus explicabo minus consectetur repellendus alias ea est optio dignissimos, dolorum, atque, minima nam consequuntur sapiente. Id doloremque corporis ex debitis?
+            </p>
+        </div>
+    </section>
+
+    <!-- questions -->
+    <section class="p-5 text-dark questions" id="questions">
+        <div class="container">
+            <h3 class="mb-1 text-center text-light title-text">Frequently Asked Questions</h3>
+            <div class="mb-4 title-underline"></div>
+            <div class="accordion accordion-flush" id="#questions">
+                <!-- accordion item 1 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#question-one">
+                            Where are you located?
+                        </button>
+                    </h2>
+                    <div id="question-one" class="accordion-collapse collapse" data-bs-parent="#questions">
+                        <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis exercitationem explicabo omnis temporibus dolore molestias in cupiditate, praesentium facilis? Recusandae?</div>
+                    </div>
+                </div>
+                <!-- accorion item 2 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#question-two">
+                            How much does admission cost?
+                        </button>
+                    </h2>
+                    <div id="question-two" class="accordion-collapse collapse" data-bs-parent="#questions">
+                        <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim maiores atque iusto! Sunt fugiat debitis dignissimos quos deserunt, odio officia?</div>
+                    </div>
+                </div>
+                <!-- accordion item 3 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#question-three">
+                            What should I know before entering?
+                        </button>
+                    </h2>
+                    <div id="question-three" class="accordion-collapse collapse" data-bs-parent="#questions">
+                        <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti doloremque ullam reprehenderit assumenda consequatur? Nostrum quos non eum vitae veritatis debitis consequuntur velit harum, ipsam accusantium magni eveniet voluptate, necessitatibus sapiente provident asperiores cum iusto expedita consectetur! Hic eligendi perspiciatis saepe similique impedit neque, quisquam ratione praesentium sint fuga excepturi?</div>
+                    </div>
+                </div>
+                <!-- accordion item 4 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#question-four">
+                            Where do the animals come from?
+                        </button>
+                    </h2>
+                    <div id="question-four" class="accordion-collapse collapse" data-bs-parent="#questions">
+                        <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa ipsam blanditiis veniam ipsum aperiam obcaecati nisi! Non dolorum ea corporis, necessitatibus sapiente ipsam pariatur harum, deleniti laudantium aliquid vero illo vitae officiis soluta. Illo ipsum similique ducimus amet tempora suscipit numquam dignissimos sed alias atque. Dignissimos eligendi modi repellat velit doloribus harum enim molestias maiores assumenda, impedit labore alias pariatur dolor corrupti illo dicta quod voluptatum, odio at! Eligendi, deserunt?</div>
+                    </div>
+                </div>
+                <!-- accordion item 5 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#question-five">
+                            Will rehabilitated animals be released into the wild?
+                        </button>
+                    </h2>
+                    <div id="question-five" class="accordion-collapse collapse" data-bs-parent="#questions">
+                        <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea non possimus beatae, aut vel pariatur odio voluptatum perspiciatis ad in provident et cupiditate facere quidem illo eius impedit. Eaque consectetur in nemo quae. Deserunt pariatur eligendi rem nostrum facilis accusantium quis esse possimus placeat tempora. Qui maiores sed expedita commodi magni ad, eligendi vitae impedit enim voluptas aliquam et, nesciunt nihil ipsam inventore rem numquam perferendis exercitationem quidem possimus soluta eos! Aliquam omnis dolorem blanditiis at non debitis vitae nesciunt molestiae cum! Perspiciatis quos deserunt obcaecati voluptatum veniam itaque recusandae nemo facere. Harum commodi illum qui aut incidunt inventore. Tempora.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contribute -->
+    <section class="p-5 bg-dark text-light text-center" id="contribute">
+        <div class="container">
+            <p class="mb-1">“Of all the special things we choose to do for our planet, let one of them to be of service to animals”</p>
+            <p class="mb-4">- Paul Oxton</p>
+            <button class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#enroll">Make A Contribution</button>
+        </div>
+    </section>
+
+    <!-- contact and map -->
+    <section class="p-5 text-light contact" id="contact">
+        <div class="container">
+            <h3 class="mb-1 text-center text-light title-text">Contact Info</h3>
+            <div class="mb-4 title-underline"></div>
+            <ul class="list-group list-group-flush lead contact-list">
+                <li class="list-group-item">
+                    <span class="fw-bold">Main Location: </span>123 Wildlife Street, San Jose, CA
+                </li>
+                <li class="list-group-item">
+                    <span class="fw-bold">Phone: </span>(800) 867-5309
+                </li>
+                <li class="list-group-item">
+                    <span class="fw-bold">Email: </span>contact@wildlifezonedomain.com
+                </li>
+            </ul>
+        </div>
+    </section>
+    
+    <!-- footer -->
+    <footer class="p-5 bg-dark text-white text-center position-relative">
+        <div class="container">
+            <p class="lead">Copyright &copy; 2022 Wildlife Zone. All rights reserved.</p>
+            <a href="#" class="position-absolute bottom-0 end-0 p-5"><i class="bi bi-arrow-up-circle h1"></i></a>
+        </div>
+    </footer>
+
+    <!-- Modal -->
+    <div class="modal fade" id="enroll" tabindex="-1" aria-labelledby="enrollLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="enrollLabel">Make A Contribution</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p class="lead">Thank you for your support! </p>
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="call-form-label">Name</label>
+                            <input type="text" class="form-control" id="name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="call-form-label">Email</label>
+                            <input type="email" class="form-control" id="email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="card" class="call-form-label">Credit Card</label>
+                            <input type="card" class="form-control" id="card">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+<!-- mapbox
+<script src='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js'></script>
+<script>
+    mapboxgl.accessToken = 'pk.eyJ1IjoiYWxkcml2ZXIiLCJhIjoiY2t6YzRteTAxMW5ubjJ2bW1objFjNXpmNiJ9.dkfvWjjelbEqxYwt07ZS1g';
+    var map = new mapboxgl.Map({
+        container: 'map',
+        style: 'mapbox://styles/mapbox/streets-v11',
+        center: [-71.06091, 42.365812],
+        zoom: 18
+    });
+</script> -->
+</body>
+</html>

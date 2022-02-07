@@ -1,0 +1,64 @@
+/*------------- body -------------*/
+body {
+  background: url(/img/dolphins.jpeg) center/cover no-repeat fixed;
+}
+
+/*------------- title -------------*/
+.title-text {
+  font-size: 40px;
+  text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000,
+    1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+}
+
+.title-underline {
+  border-top: 5px orange solid;
+  width: 250px;
+  margin: 0 auto;
+}
+
+/*------------- home -------------*/
+.home-page {
+  height: 40vh;
+}
+
+.home-text {
+  text-align: center;
+  max-width: 800px;
+  margin: 60vh auto;
+}
+
+/*------------- newsletter -------------*/
+@media (min-width: 768px) {
+  .news-input {
+    width: 50%;
+  }
+}
+
+/*------------- about -------------*/
+.about-text {
+  text-align: justify;
+  text-align-last: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about .title-underline {
+  width: 150px;
+}
+
+/*------------- featured -------------*/
+
+/*------------- questions -------------*/
+.questions .title-underline {
+  width: 400px;
+}
+
+/*------------- contact -------------*/
+.contact .title-underline {
+  width: 150px;
+}
+
+.contact-list {
+  max-width: fit-content;
+  margin: 0 auto;
+}
