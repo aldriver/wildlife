@@ -40,12 +40,11 @@ body {
 }
 
 .newsletter-text {
-  color: rgb(200, 200, 200);
+  color: rgb(150, 150, 150);
 }
 
 .newsletter .input-field {
   background: rgb(200, 200, 200);
-  color: black;
 }
 
 /*------------- about -------------*/
@@ -57,18 +56,114 @@ body {
 }
 
 .about h3 {
-  color: rgb(200, 200, 200);
+  color: rgb(150, 150, 150);
 }
 
 .about .title-underline {
   width: 150px;
 }
 
+/*------------- events -------------*/
+.events .title-underline {
+  width: 90px;
+}
+
+/*------------- review grid -------------*/
+.review-grid {
+  display: grid;
+  gap: 1.5em;
+}
+
+@media (min-width: 768px) {
+  .review-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .col-span-2-md {
+    grid-column: 1 / span 2;
+  }
+}
+
+@media (min-width: 1080px) {
+  .review-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .col-span-2-md {
+    grid-column: 1 / span 2;
+  }
+
+  .col-span-2-lg {
+    grid-column: 2 / span 2;
+  }
+
+  .row-span-2-lg {
+    grid-column: 4;
+    grid-row: 1 / span 2;
+  }
+
+  #review-five {
+    grid-row: 2;
+  }
+}
+
+/*------------- reviews -------------*/
+.reviews .title-text {
+  color: rgb(150, 150, 150);
+}
+
+/*------------- review cards -------------*/
+.review-img {
+  width: 40px;
+  height: 40px;
+}
+
+.review-card {
+  border-radius: 10px;
+}
+
+.review-info {
+  display: flex;
+}
+
+.reviews .main-text {
+  font-size: 1.3em;
+  font-weight: bold;
+  line-height: 120%;
+}
+
+.reviews .sub-text {
+  font-size: 0.9em;
+}
+
+.review-card h1 {
+  font-size: 0.8em;
+  margin: 0.1rem 1rem;
+}
+
+.review-name {
+  font-weight: 900;
+  padding-top: 5px;
+}
+
+.review-relation {
+  font-style: italic;
+}
+
+#review-one {
+  background-color: #48304d;
+}
+
+#review-two,
+#review-five {
+  background-color: #208aae;
+}
+
 /*------------- featured -------------*/
 .featured-name {
   font-weight: bold;
   letter-spacing: 0.04em;
-  color: rgb(200, 200, 200);
+  color: rgb(150, 150, 150);
 }
 
 .featured-text,
@@ -95,7 +190,7 @@ body {
 
 /*------------- contribute -------------*/
 .contribute p {
-  color: rgb(200, 200, 200);
+  color: rgb(150, 150, 150);
 }
 
 /*------------- contact -------------*/
@@ -110,5 +205,5 @@ body {
 
 /*------------- footer -------------*/
 footer p {
-  color: rgb(200, 200, 200);
+  color: rgb(150, 150, 150);
 }
